@@ -1,14 +1,35 @@
 {
   "name": "situational-bingo",
+  "license": "GPL-2.0",
   "version": "0.0.1",
-  "description": "A situational based bingo game",
+  "engines": {
+    "node": ">=0.10.3 <0.12"
+  },
   "private": true,
-  "scripts": {
-    "start": "node app.js"
+  "author": {
+    "name": "Tazer (Tim Frazier)",
+    "email": "tim.frazier@gmail.com",
+    "url": "https://github.com/Fraz0r"
+  },
+  "description": "A situational based bingo game",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2"
   },
   "dependencies": {
     "express": "3.4.8",
     "jade": "*",
     "stylus": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fraz0r/bingo"
+  },
+  "bugs": {
+    "url": "https://github.com/Fraz0r/bingo/issues",
+    "email": "tim.frazier@gmail.com"
   }
 }
