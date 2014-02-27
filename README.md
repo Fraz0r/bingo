@@ -1,0 +1,4 @@
+bingo
+=====
+
+Situational bingo game
